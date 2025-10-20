@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Filter {
-    public List<String> filterByFirstLetterAndLength(List<String> list, String letter, int numChars){
+    public List<String> filterByFirstLetterAndLength(List<String> list, String letter, int numChars) {
         if (list == null) {
             throw new IllegalArgumentException("The list or the letter cannot be empty.");
         }

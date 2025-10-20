@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SampleNames {
-    public static List<String> getNames(){
+    public static List<String> getNames() {
         List<String> names = new ArrayList<>();
         names.add("Marcos");
         names.add("Ana");

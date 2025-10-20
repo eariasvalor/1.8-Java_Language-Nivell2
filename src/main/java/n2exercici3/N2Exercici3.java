@@ -1,7 +1,7 @@
 package n2exercici3;
 
 public class N2Exercici3 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         IOperation addition = (n1, n2) -> n1 + n2;
         IOperation substraction = (n1, n2) -> n1 - n2;
         IOperation multiplication = (n1, n2) -> n1 * n2;

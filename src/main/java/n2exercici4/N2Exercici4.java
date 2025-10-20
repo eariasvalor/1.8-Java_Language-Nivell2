@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class N2Exercici4 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         List<Object> things = SampleThings.getThings();
 
         things.stream()
