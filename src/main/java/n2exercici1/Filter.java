@@ -10,10 +10,8 @@ public class Filter {
         }
         String upperLetter = letter.toUpperCase();
         return list.stream()
-                .filter(s -> s
-                        .length() == numChars)
-                .filter(s -> s
-                        .startsWith(upperLetter))
+                .filter(s -> s.length() == numChars)
+                .filter(s -> s.startsWith(upperLetter))
                 .collect(Collectors.toUnmodifiableList());
 
     }
