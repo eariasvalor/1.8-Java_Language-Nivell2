@@ -25,8 +25,24 @@ public class N2Exercici4 {
                     return stringA.compareTo(stringB);
 
                 })
-                .collect(Collectors.toUnmodifiableList())
+                .map(o -> o.toString().replace("a", "4"))
+                .collect(Collectors.toList())
                 .forEach(System.out::println);
+
+
+
+
+        List<Object> numbers = things.stream()
+                .filter(o -> o.toString().matches("\\d+"))
+                .collect(Collectors.toList());
+
+        System.out.println();
+        System.out.println("List with only numbers:");
+        numbers.forEach(System.out::println);
+
+
+
+
 
     }
 }
